@@ -12,17 +12,18 @@ html{
 body{
     width: 100%;
     height: 100%;
-    background: url(images/sitebg.jpg ) no-repeat center fixed;
+    background: url(images/brick.jpg) no-repeat center fixed;
     background-size: cover;
 }
 section{
-    padding: 6rem;
+    padding: 6rem 0;
 }
 a{
     text-decoration: none;
     color: #eee;
 
 }
+
 p{
     font-size: 1.8rem;
     font-weight: 300;
@@ -30,6 +31,7 @@ p{
 img{
     width: 100%;
 }
+
 /*End global*/
 
 /*Start reusable*/
@@ -87,6 +89,7 @@ img{
 header{
     width: 100%;
     height: 100vh;
+    font-size: 5rem;
 }
 .top-nav{
     width: 100%;
@@ -118,7 +121,7 @@ li{
 }
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background: linear-gradient(to top, #55031e, #04e6de);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -145,7 +148,7 @@ li{
     transform: rotate(-45deg);
 }
 .bar{
-    background: linear-gradient(to right,#ffe838,#fd57bf);
+    background: linear-gradient(to right,#55031e,#04e6de);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -182,7 +185,7 @@ li{
 .landing-text h1{
     font-size: 20 rem;
     font-family:  Paytone One ;
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background: linear-gradient(to top, #55031e, #04e6de);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -267,14 +270,14 @@ li{
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid #ffe838;
-    background-color: #fd57bf;
+    border: 3px solid #55031e;
+    background-color: #04e6de;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
 }
 .icon-container i{
-    color: #ffe838;
+    color: #55031e;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
@@ -328,7 +331,7 @@ li{
 
 /*Start timeline*/
 .timeline ul{
-    border-left:4px solid #ffe838 ;
+    border-left:4px solid #e8e120 ;
     border-radius: .8rem;
     background-color: rgba(0, 0, 0, 0.05);
     margin: 0 auto;
@@ -346,7 +349,7 @@ li{
     opacity: .3;
 }
 .timeline .date{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(16, 59, 108, 0.1);
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     position: relative;
@@ -372,7 +375,7 @@ li{
 }
 .timeline .date::after{
     content: '';
-    box-shadow: 0 0 0 4px #fd57bf;
+    box-shadow: 0 0 0 4px #04e6de;
     border-radius: 100%;
     left: -6rem;
     height: 1.5rem;
@@ -402,11 +405,11 @@ textarea{
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #fd57bf;
+    outline-color: #04e6de;
 }
 input[type='submit']{
     width: initial;
-    background-color: #fd57bf;
+    background-color: #04e6de;
     color: #eee;
     padding: 1rem 2rem;
     border-radius: .8rem;
@@ -415,7 +418,7 @@ input[type='submit']{
 }
 input[type='submit']:hover{
     color: #221e3f;
-    background-color: #ffe838;
+    background-color: #55031e;
 }
 /*End contact*/
 
@@ -437,11 +440,13 @@ input[type='submit']:hover{
     border-radius: 100%;
     display: flex;
     animation: pulse 2s infinite;
+    cursor: pointer;
 }
 .up i{
     color: #221e3f;
     font-size: 2rem;
     margin: auto;
+
 }
 .copyright p{
     font-size: 1.4rem;
