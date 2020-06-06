@@ -377,7 +377,7 @@ li{
     content: '';
     box-shadow: 0 0 0 4px #04e6de;
     border-radius: 100%;
-    left: -6rem;
+    left: -8rem;
     height: 1.5rem;
     width: 1.5rem;
     background-color: #313534;
@@ -388,7 +388,8 @@ li{
 
 /*Start contact*/
 .contact{
-    background-color: #221e3f;
+    background-image: url(images/brick.jpg)  no-repeat center fixed;
+
 
 }
 form{
