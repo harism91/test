@@ -48,7 +48,7 @@ img{
 }
 .section-heading h1{
     font-size: 3.5rem;
-    color: rgba(255, 255, 255, .3);
+    color: rgb(193, 193, 193);
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
@@ -121,7 +121,7 @@ li{
 }
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, #55031e, #04e6de);
+    background: linear-gradient(to top, #04e6de);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -148,7 +148,7 @@ li{
     transform: rotate(-45deg);
 }
 .bar{
-    background: linear-gradient(to right,#55031e,#04e6de);
+    background: linear-gradient(to right,#04e6de,#04e6de);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -185,7 +185,7 @@ li{
 .landing-text h1{
     font-size: 20 rem;
     font-family:  Paytone One ;
-    background: linear-gradient(to top, #55031e, #04e6de);
+    background: linear-gradient(to top, #0eb4ae, #04e6de);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -270,7 +270,7 @@ li{
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid #55031e;
+    border: 3px solid #04e6de;
     background-color: #04e6de;
     margin-bottom: 2rem;
     display: flex;
@@ -314,7 +314,7 @@ li{
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 300;
-    opacity: 0.3;
+    opacity: 0.9;
 }
 .portfolio-description .cta{
     display: inline-block;
@@ -346,7 +346,7 @@ li{
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
-    opacity: .3;
+    opacity: .8;
 }
 .timeline .date{
     border-bottom: 1px solid rgba(16, 59, 108, 0.1);
